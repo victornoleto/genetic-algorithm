@@ -1,0 +1,34 @@
+.page {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.page .chart-card {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.page .chart-card .chart-area {
+    position: relative;
+    width: 100%;
+}
+
+.page .chart-card .chart-area:after {
+    content: "";
+    display: block;
+    padding-bottom: 56.25%;
+}
+
+.page .chart-card .chart-area #chart {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}

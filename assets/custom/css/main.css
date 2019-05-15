@@ -1,0 +1,78 @@
+body {
+    background-color: #eee;
+}
+
+.page {
+    padding: 16px;
+}
+
+.page .row:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.card .card-header {
+    border: none;
+    font-weight: 500;
+}
+
+.messages {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.messages h1 {
+    font-size: 26px;
+    text-align: center;
+    max-width: 400px;
+    font-weight: 300;
+}
+
+.messages h1 span {
+    display: block;
+    margin-top: 16px;
+}
+
+.best {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.best li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    background: #fff;
+}
+
+.best li:not(:last-child) {
+    border-right: 1px solid #ccc;
+}
+
+.best li span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.best-score {
+    color: #999;
+    margin-bottom: 20px;
+}
